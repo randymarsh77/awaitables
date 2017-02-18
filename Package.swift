@@ -5,6 +5,7 @@ let package = Package(
     dependencies: [
 		.Package(url: "https://github.com/randymarsh77/async", majorVersion: 1),
 		.Package(url: "https://github.com/randymarsh77/cancellation", majorVersion: 1),
+		.Package(url: "https://github.com/randymarsh77/streams", majorVersion: 0),
 		.Package(url: "https://github.com/randymarsh77/time", majorVersion: 2),
 	]
 )
