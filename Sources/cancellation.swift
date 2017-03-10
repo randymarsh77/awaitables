@@ -4,7 +4,7 @@ import Cancellation
 
 public extension CancellationToken
 {
-	func UntilCanceled() -> Task<Void> {
+	func untilCanceled() -> Task<Void> {
 		let task = async {
 			Async.Suspend()
 		}
